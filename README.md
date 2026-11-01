@@ -1,4 +1,4 @@
-# agentgates-ai
+# Agentgates
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentgates-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentgates.ai/
+Agentgates provides compute and inference for AI agents: a confidential virtual machine billed by the hour and an open model billed per request. Both services quote a real price over HTTP and accept payment in USDC. No account is required; users simply connect a wallet to start using the platform.
+
+**Areas:** AI · Compute · Inference · Blockchain · Payments
+
+## Agentgates on APIs.io
+
+Everything profiled for Agentgates is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentgates-ai/](https://apis.io/providers/agentgates-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Agentgates Compute API](https://apis.io/apis/agentgates-ai/agentgates-ai-compute-api/) — The Compute API from Agentgates — 4 operation(s) for compute.
+- [Agentgates Directory API](https://apis.io/apis/agentgates-ai/agentgates-ai-directory-api/) — The Directory API from Agentgates — 7 operation(s) for directory.
+- [Agentgates Inference API](https://apis.io/apis/agentgates-ai/agentgates-ai-inference-api/) — The Inference API from Agentgates — 4 operation(s) for inference.
+- [Agentgates Llms.txt API](https://apis.io/apis/agentgates-ai/agentgates-ai-llms-txt-api/) — The Llms.txt API from Agentgates — 1 operation(s) for llms.txt.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentgates Ai Agentic Access](https://apis.io/agentic-access/agentgates-ai/agentgates-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentgates Ai Context](https://apis.io/jsonld/agentgates-ai/agentgates-ai-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Agentgates Ai Openapi Overlay](https://apis.io/overlays/agentgates-ai/agentgates-ai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agentgates API Rules](https://apis.io/rules/agentgates-ai/agentgates-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentgates Ai Authentication](https://apis.io/security/agentgates-ai/agentgates-ai-authentication/)
+- [Agentgates Ai Domain Security](https://apis.io/security/agentgates-ai/agentgates-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentgates Ai Scopes](https://apis.io/scopes/agentgates-ai/agentgates-ai-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentgates.ai/)
+- [Documentation](https://agentgates.ai/docs)
+- [API reference](https://agentgates.ai/docs)
+- [Terms of service](https://agentgates.ai/terms)
+- [GitHub](https://github.com/Carlos-Sotop/agentgates)
+
+## API Evangelist rating
+
+**Kin Score 35.7** — thin · rubric 0.26.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 39.5 |
+| Contract governance | 70.9 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 57.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentgates-ai/](https://apis.io/providers/agentgates-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agentgates: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentgates-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
